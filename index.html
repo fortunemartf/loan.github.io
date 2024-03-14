@@ -5,7 +5,13 @@
 
 <!-- Required meta tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<script>
+  function openLink() {
+    setTimeout(function() {
+      window.location.href = "https://www.google.com"; // Change the URL as needed
+    }, 2000); // 2000 milliseconds = 2 seconds
+  }
+</script>
 <style>
   body {
     background-color: #0054a5;
@@ -100,11 +106,6 @@
       <img src="./download-removebg-preview (1).png" alt="Logo" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: auto;">
     </div>
   </div>
-  <script>// Wait for 10 seconds
-    setTimeout(function() {
-        // Redirect to the desired URL
-        window.location.href = "https://moneyresources.co.in/";
-    }, 10000); // 10000 milliseconds = 10 seconds
-    </script>
+  <button onclick="openLink()">open</button>
 </body>
 </html>
